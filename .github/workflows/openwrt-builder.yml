@@ -16,7 +16,7 @@ on:
   repository_dispatch:
   workflow_dispatch:
 
-env:
+env:\n  USE_PROXY: true
   REPO_URL: https://github.com/coolsnowwolf/lede
   REPO_BRANCH: master
   FEEDS_CONF: feeds.conf.default
